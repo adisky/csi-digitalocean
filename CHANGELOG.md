@@ -1,5 +1,12 @@
 ## unreleased
 
+## v1.0.1 - 2018.12.28
+
+* Rename the cluster role bindings for the `node-driver-registrar` to be
+  consistent with the other role bindings.
+  NOTE: this update is not needed if you're using already `v1.0.0` 
+  [[GH-118]](https://github.com/digitalocean/csi-digitalocean/pull/118)
+
 ## v1.0.0 - 2018.12.19
 
 * Add support for CSI SPEC `v1.0.0`. This includes various new changes and
